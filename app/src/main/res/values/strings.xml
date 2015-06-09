@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BadgeCountApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--<string name="banner_ad_unit_id">ca-app-pub-1234567890123456</string>-->
+
+    <string name="banner_ad_unit_id">ca-app-pub-1147729513575655/6913222649</string>
+    <string name="title_activity_sample_messager">SampleMessagerActivity</string>
+
+    <string-array name="motogp_years">
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+    </string-array>
+
+    <string-array name="motogp_champions">
+        <item>Champion 1</item>
+        <item>Champion 2</item>
+        <item>Champion 3</item>
+        <item>Champion 4</item>
+    </string-array>
+
+    <string-array name="motogp_constructors">
+        <item>Cons 1</item>
+        <item>Cons 2</item>
+        <item>Cons 3</item>
+        <item>Cons 4</item>
+    </string-array>
+    <string name="title_activity_lock">LockActivity</string>
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_my_demo_apps">MyDemoApps</string>
+    <string name="title_activity_live_wall_settings">LiveWallSettings</string>
+    <string name="title_activity_image_loader">ImageLoaderActivity</string>
+</resources>
