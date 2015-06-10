@@ -45,7 +45,8 @@ public class MyDemoApps extends Activity implements View.OnClickListener {
                 R.id.btn_live_wallpaper_settings,
                 R.id.btn_accellaration,
                 R.id.btn_imageLoader,
-                R.id.btn_test_sample
+                R.id.btn_test_sample,
+                R.id.btn_custom_webview
                 );
     }
 
@@ -115,6 +116,9 @@ public class MyDemoApps extends Activity implements View.OnClickListener {
                 break;
             case R.id.btn_imageLoader:
                 intent=new Intent(this, ImageLoaderActivity.class);
+                break;
+            case R.id.btn_custom_webview:
+                intent=new Intent(this, com.example.krishna.badgecountapp.customwebview.MainActivity.class);
                 break;
             default:
                 return;

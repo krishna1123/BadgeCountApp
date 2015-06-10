@@ -73,6 +73,7 @@
         <activity android:name=".lock.LockActivity" />
         <activity android:name=".animation.CompassActivity" />
         <activity android:name=".animation.AccelerometerPlayActivity" />
+        <activity android:name=".customwebview.MainActivity"/>
 
         <receiver
             android:name=".lock.MyLockReceiver"

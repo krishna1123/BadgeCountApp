@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.krishna.badgecountapp.customwebview.MainActivity">
+    <item
+        android:id="@+id/airport_menuRefresh"
+        android:title="airport_menuRefresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/goBack"
+        android:title="goBack"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/goForward"
+        android:title="goForward"
+        app:showAsAction="never" />
+</menu>
