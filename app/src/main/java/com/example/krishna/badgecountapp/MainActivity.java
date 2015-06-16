@@ -16,6 +16,12 @@ import com.google.android.gms.ads.AdView;
 import java.lang.reflect.Method;
 import java.util.List;
 
+ //Template for logcat -->checked first three
+        // android.util.Log.d("$className$", "$MethodName$ (Line:$Line$) :"+$message$);
+
+        // Template for showToast // "this"  //  "\"message\""
+        // android.widget.Toast.makeText($context$, $message$, Toast.LENGTH_SHORT).show();$END$
+
 
 public class MainActivity extends ActionBarActivity {
 
