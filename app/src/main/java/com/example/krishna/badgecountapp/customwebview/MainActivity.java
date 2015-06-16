@@ -60,6 +60,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         txtrefresh = (TextView) findViewById((R.id.textView1));
         txtrefresh.setVisibility(View.GONE);
 
+        //Template for logcat -->checked first three
+        // android.util.Log.d("$className$", "$MethodName$ (Line:$Line$) :"+$message$);
+
+        // Template for showToast // "this"  //  "\"message\""
+        // android.widget.Toast.makeText($context$, $message$, Toast.LENGTH_SHORT).show();$END$
+
 
         if (isConnected()) {
 
